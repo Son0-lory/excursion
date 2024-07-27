@@ -2,6 +2,9 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     text-align: center;
+    padding: 0 auto;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -28,7 +31,13 @@ h2 {
     font-size: 21px;
 }
 
+.icon {
+    padding-top: 25px;
+}
+
 footer {
     color: gray;
     text-align: right;
+    padding-right: 3%;
 }
+
